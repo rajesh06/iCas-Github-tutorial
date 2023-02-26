@@ -86,6 +86,7 @@ Create a .gitignore (plain text file) and add to your repository
 5.  Make a minor change and add and commit (one step)
 
     -   `git commit -a -m <msg>`
+    A commit that I will undo
 
 ## Collaborating in the Cloud Exercise #1: Forks and Clones
 
