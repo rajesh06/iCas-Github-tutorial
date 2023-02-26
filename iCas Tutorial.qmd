@@ -47,7 +47,7 @@ editor: visual
 
     -   [Visual Studio Code](https://code.visualstudio.com/)
 
--   Cloud-based Code Repository
+-   Create an account for Cloud-based Code Repository
 
     -   [GitHub](https://github.com/)
 
@@ -57,17 +57,19 @@ editor: visual
 
 1.  Configuration
 
-    -  `git config --global user.name "<user name>"`
+    -   `git config --global user.name "<user name>"`
 
 2.  Create a repository
 
-    -  `git init`
+    -   `git init`
 
-Create a .gitignore (plain text file) and add to your repository
+3.  Create a .gitignore (plain text file) and add to your repository
 
-`git add -A -- <repo folder>.gitignore`
+    -   `git add -A -- <repo folder>.gitignore`
 
-## Exercise #2: Local Version Control - Commit and Revert
+## Exercise #2: Local Version Control
+
+### Commit and Revert
 
 1.  Create a plain text file in any format (.txt, .R, .py, etc.)
 
@@ -83,13 +85,84 @@ Create a .gitignore (plain text file) and add to your repository
 
     -   `git commit -a -m <msg>`
 
-5.  Make a minor change and add and commit (one step)
+## Exercise #2: Local Version Control (continued)
+
+### Commit and Revert
+
+5.  Make a minor change and add and commit (one step); then undo the revert
 
     -   `git commit -a -m <msg>`
-    A commit that I will undo
+    -   `git revert`
 
-## Collaborating in the Cloud Exercise #1: Forks and Clones
+## Excercise #3: Collaborating in the Cloud
+
+### Publish your repository to the Cloud
+
+To collaborate with internal or external users, you will need to publish your repository. The most popular cloud repositories are GitHub (now owned by Microsoft) and Bitbucket (Atlassian).
+
+`git remote add origin <REMOTE_URL>`
+
+`# Sets the new remote`
+
+`git remote -v`
+
+`` # Verifies the new remote URL` ``
+
+Confirm that the repository is `public`
+
+## Collaborating in the Cloud: Forks and Clones
 
 -   A fork creates a completely independent copy of Git repository.
 
 -   A clone creates a linked copy that will continue to synchronize with the target repository
+
+-   Push your changes to the cloud
+
+-   Pull changes to your repository
+
+    -   "Pull" v. "Pull Request"
+
+## Exercise #4: Collaboration via clones (Internal)
+
+You will need to work with a partner.
+
+1.  Navigate to your partner's repository
+
+2.  Clone the repository
+
+    -   `git clone <repo> <directory>`
+
+3.  Make some minor changes, commit and push
+
+    -   `git add` or `git commit -a`
+    -   `git push`
+
+4.  Pull your partner's changes to your repo
+
+    -   `git fetch` / `git pull`
+
+## Exercise #5: Collaboration via forks (external)
+
+You will need to work with a partner.
+
+1.  Navigate to your partner's repository
+
+2.  Fork the repository in the cloud. This will create a new repository under your user name with the same name as the original.
+
+3.  Clone the repository locally
+
+    -   `git clone <repo> <directory>`
+
+## Exercise #5: Collaboration via forks (external)
+
+4.  Make some minor changes, commit and push
+
+    -   `git add` or `git commit -a`
+    -   `git push`
+    
+5.  Request that your partner accept your changes via a pull request in the cloud
+
+6.  Accept your partner's pull request to your repository.
+
+## Questions
+
