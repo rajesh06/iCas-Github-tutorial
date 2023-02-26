@@ -27,27 +27,59 @@ editor: visual
 
 ## Prerequisites
 
-[Git](https://git-scm.com/)
+-   [Git](https://git-scm.com/)
 
-GUI Clients
+-   GUI Clients
 
--   [Github Desktop (GitHub)](https://desktop.github.com/)
+    -   [Github Desktop (GitHub)](https://desktop.github.com/)
 
--   [Sourcetree (Atlassian)](https://www.sourcetreeapp.com/)
+    -   [Sourcetree (Atlassian)](https://www.sourcetreeapp.com/)
 
-IDE
+-   Command Line Interface (Terminal)
 
--   [RStudio](https://posit.co/products/open-source/rstudio/)
-
--   [Visual Studio Code](https://code.visualstudio.com/)
+    -   Gitbash
 
 ## Prerequisites
 
-Cloud-based Code Repository
+-   IDE
 
--   [GitHub](https://github.com/)
+    -   [RStudio](https://posit.co/products/open-source/rstudio/)
 
--   [Bitbucket](https://bitbucket.org/)
+    -   [Visual Studio Code](https://code.visualstudio.com/)
+
+-   Cloud-based Code Repository
+
+    -   [GitHub](https://github.com/)
+
+    -   [Bitbucket](https://bitbucket.org/)
+
+## Exercise #1: Git Basics
+
+`git config --global user.name "<user name>"`
+
+Create a repository
+
+`git init`
+
+Create a .gitignore (plain text file) and add to your repository
+
+`git add -A -- <repo folder>.gitignore`
+
+## Exercise #2: Local Version Control - Commit and Revert
+
+1.  Create a plain text file in any format (.txt, .R, .py, etc.)
+
+2.  Stage files
+
+    -   `git add -all`
+
+3.  Commit your changes - Record changes to the repository
+
+    -   `git commit`
+
+[git-commit](https://git-scm.com/docs/git-commit) - Record changes to the repository
+
+Basic
 
 ## Collaborating in the Cloud Exercise #1: Forks and Clones
 
