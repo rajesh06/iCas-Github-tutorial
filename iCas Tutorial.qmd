@@ -94,7 +94,7 @@ editor: visual
     -   `git commit -a -m <msg>`
     -   `git revert`
 
-## Excercise #3: Collaborating in the Cloud
+## Exercise #3: Collaborating in the Cloud
 
 ### Publish your repository to the Cloud
 
@@ -160,13 +160,15 @@ You will need to work with a partner.
     -   `git add` or `git commit -a`
     -   `git push`
 
-5.  Request that your partner accept your changes via a pull request in the cloud
+5.  Request that your partner accepts your changes via a pull request in the cloud.
 
 6.  Accept your partner's pull request to your repository.
 
 ## Questions
 
-This presentation is a Quorto Presentation and is available in this repository: https://github.com/rajesh06/iCas-Github-tutorial
+This presentation is a Quorto Presentation and is available in this repository:
+
+<https://github.com/rajesh06/iCas-Github-tutorial>
 
 [Brian Fannin, CAS](mailto:bfannin@casact.org)
 
