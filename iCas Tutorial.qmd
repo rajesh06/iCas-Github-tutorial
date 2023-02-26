@@ -1,0 +1,56 @@
+---
+title: "Hands-on Git/GitHub Tutorial"
+author: "Brian Fannin"
+format: pptx
+editor: visual
+---
+
+## Why Git?
+
+-   Replaces "filename" as a version control system
+
+-   Microsoft Office "Track Changes"
+
+    -   Comments and changes are either all in, or all out
+
+    -   Only one file at a time
+
+    -   Nonexistent for spreadsheets
+
+-   Git
+
+    -   Full history of changes
+
+    -   Comments
+
+    -   Possible to revert
+
+## Prerequisites
+
+[Git](https://git-scm.com/)
+
+GUI Clients
+
+-   [Github Desktop (GitHub)](https://desktop.github.com/)
+
+-   [Sourcetree (Atlassian)](https://www.sourcetreeapp.com/)
+
+IDE
+
+-   [RStudio](https://posit.co/products/open-source/rstudio/)
+
+-   [Visual Studio Code](https://code.visualstudio.com/)
+
+## Prerequisites
+
+Cloud-based Code Repository
+
+-   [GitHub](https://github.com/)
+
+-   [Bitbucket](https://bitbucket.org/)
+
+## Collaborating in the Cloud Exercise #1: Forks and Clones
+
+-   A fork creates a completely independent copy of Git repository.
+
+-   A clone creates a linked copy that will continue to synchronize with the target repository
