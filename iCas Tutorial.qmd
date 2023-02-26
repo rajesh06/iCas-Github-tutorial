@@ -55,11 +55,13 @@ editor: visual
 
 ## Exercise #1: Git Basics
 
-`git config --global user.name "<user name>"`
+1.  Configuration
 
-Create a repository
+    -  `git config --global user.name "<user name>"`
 
-`git init`
+2.  Create a repository
+
+    -  `git init`
 
 Create a .gitignore (plain text file) and add to your repository
 
@@ -75,11 +77,15 @@ Create a .gitignore (plain text file) and add to your repository
 
 3.  Commit your changes - Record changes to the repository
 
-    -   `git commit`
+    -   `git commit -m <msg>`
 
-[git-commit](https://git-scm.com/docs/git-commit) - Record changes to the repository
+4.  Make a minor change and add and commit (one step)
 
-Basic
+    -   `git commit -a -m <msg>`
+
+5.  Make a minor change and add and commit (one step)
+
+    -   `git commit -a -m <msg>`
 
 ## Collaborating in the Cloud Exercise #1: Forks and Clones
 
