@@ -159,10 +159,15 @@ You will need to work with a partner.
 
     -   `git add` or `git commit -a`
     -   `git push`
-    
+
 5.  Request that your partner accept your changes via a pull request in the cloud
 
 6.  Accept your partner's pull request to your repository.
 
 ## Questions
 
+This presentation is a Quorto Presentation and is available in this repository: https://github.com/rajesh06/iCas-Github-tutorial
+
+[Brian Fannin, CAS](mailto:bfannin@casact.org)
+
+[Rajesh Sahasrabddhe, Oliver Wyman](mailto:rajesh.sahasrabuddhe@oliverwyman.com)
